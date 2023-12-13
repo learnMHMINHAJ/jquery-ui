@@ -1,0 +1,124 @@
+#draggable { 
+     width: 250px;
+     height: 150px;
+     padding: 10px;
+     background-color: red;
+
+    }
+    #sortable 
+    { list-style-type: none; 
+     margin: 0; 
+     padding: 0;
+     width: 60%;
+      }
+    #sortable li
+     { 
+      margin: 0 3px 3px 3px;
+      padding: 0.4em;
+      padding-left: 1.5em;
+      font-size: 1.4em;
+      height: 18px; 
+    }
+    #sortable li span 
+    {
+    position: absolute;
+    margin-left: -1.3em; 
+     
+     }
+     #d_c
+      {
+           width: 100px;
+           height: 100px;
+           padding: 0.5em;
+           float: left; 
+           margin: 10px 10px 10px 0;
+           }
+  #droppable 
+  {  
+     width: 150px; 
+     height: 150px;
+     padding: 0.5em;
+     float: left;
+     margin: 10px;
+      }
+      .graph {
+          float: left;
+          margin-left: 10px;
+      }
+      .toggler 
+
+      { 
+            width: 500px;
+            height: 200px; 
+          }
+      #button 
+      { padding: .5em 1em; 
+      text-decoration: none; 
+     }
+      #effect 
+      {
+            width: 240px;
+            height: 170px;
+            padding: 0.4em;
+            position: relative;
+           }
+      #effect h3 
+      { 
+          margin: 0; 
+          padding: 0.4em;
+          text-align: center;
+           }
+ /* position  */
+ #parent {
+     width: 60%;
+     height: 40px;
+     margin: 10px auto;
+     padding: 5px;
+     border: 1px solid #777;
+     background-color: #fbca93;
+     text-align: center;
+   }
+   .positionable {
+     position: absolute;
+     display: block;
+     right: 0;
+     bottom: 0;
+     background-color: #bcd5e6;
+     text-align: center;
+   }
+   #positionable1 {
+     width: 75px;
+     height: 75px;
+   }
+   #positionable2 {
+     width: 120px;
+     height: 40px;
+   }
+   select, input {
+     margin-left: 15px;
+   }
+   /* widget  */
+   body {
+     margin: 0;
+   }
+   #container {
+     overflow: hidden;
+     position: relative;
+     height: 400px;
+   }
+  
+   img {
+     position: absolute;
+   }
+   /* resizable  */
+   #resizable
+    { 
+       width: 150px;
+       height: 150px;
+       padding: 0.5em;
+      }
+   #resizable h3 
+   {
+       text-align: center;
+       margin: 0;
+      }
